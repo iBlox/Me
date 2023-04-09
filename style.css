@@ -1,0 +1,33 @@
+#Box1{
+    color: blue;
+    border: 5px;
+    height: 794px;
+    width: 739px;
+    background-color: gray;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-attachment: fixed;
+
+    position: absolute;
+
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#image{
+    height: 794px;
+    width: 755px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    position: absolute;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
