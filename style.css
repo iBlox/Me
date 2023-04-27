@@ -1,22 +1,31 @@
+html {
+    height: 1500px;
+}
+
 *{
     padding: 0;
     margin: 0;
 }
 
-.hero {
+/* Nav-bar */
+
+.welcome-nav {
     height: 100vh;
-    
-    background-image: url(https://cdn.discordapp.com/attachments/1092755296868376646/1100767516437000303/9rkWzZmnJ2SSFHmkXYXKW91tfqUmyWSDVV93RiwdqCKx-Q_kKekvD1Xf3DMXFgCuzFh3KFStQ3eHDhA8srQPui1Xf42GxoMjK0TEUGrtLFBADrP1vsfGvtwOGIzEan1PUww1280.png);
+    width: 100%;
+    background: url(https://cdn.discordapp.com/attachments/1092755296868376646/1100767516437000303/9rkWzZmnJ2SSFHmkXYXKW91tfqUmyWSDVV93RiwdqCKx-Q_kKekvD1Xf3DMXFgCuzFh3KFStQ3eHDhA8srQPui1Xf42GxoMjK0TEUGrtLFBADrP1vsfGvtwOGIzEan1PUww1280.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
+
 nav{
-    padding-top: 25px;
+    padding: 30px 80px;
 
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
+    text-align: center;
 }
 
 ul{
@@ -27,9 +36,10 @@ ul{
     font-size: 40px;
     font-weight: 600;
 
+    
+
     display: flex;
     align-items: center;
-    text-align: center;
     gap: 30px;
 }
 
@@ -71,4 +81,19 @@ nav a{
 button:hover{
     opacity: 0;
     cursor: pointer;
+}
+
+/* Welcome Titles */
+
+.welcome-titles {    
+    position: absolute;
+    top: 45%;
+    left: 45%
+}
+
+.welcome-text {
+    color: darkcyan;
+
+    font-size: 80px;
+    font-family: sans-serif;
 }
